@@ -3,4 +3,5 @@ project(LAB9_V2)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(LAB9_V2 main.cpp geometry.cpp)
+add_executable(LAB9_V2 main.cpp
+        conversion.cpp)
